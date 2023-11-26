@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Steam Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="head">
+      <div class="nav-bar">
+        <a href="https://store.steampowered.com/" class="nav-icon">
+          <img
+            src="https://community.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016"
+            height="36"
+            border="0"
+            alt="STEAM"
+          />
+        </a>
+        <div class="nav-group">
+          <a href="#" class="nav-link">Store</a>
+          <a href="#" class="nav-link">Community</a>
+          <a href="#" class="nav-link">About</a>
+          <a href="#" class="nav-link">Support</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="category-group">
+          <div class="search-box">
+            <input type="text" class="input" id="search" placeholder="Search" />
+            <button id="submit-button" class="submit-btn" type="submit">
+              &#128269;
+            </button>
+          </div>
+          <div>
+            <div for="title" class="label-list">BROWSE BY GENRES</div>
+            <div id="genre-list" class="category-list">
+              <span class="category-btn">Action</span>
+              <span class="category-btn">Adventure</span>
+              <span class="category-btn">Sexy</span>
+              <span class="category-btn">Slash</span>
+              <span class="category-btn">Adult</span>
+            </div>
+            <div for="title" class="label-list">BROWSE BY TAG</div>
+            <div id="tag-list" class="category-list">
+              <span class="category-btn">Action</span>
+              <span class="category-btn">Adventure</span>
+              <span class="category-btn">Sexy</span>
+              <span class="category-btn">Slash</span>
+              <span class="category-btn">Adult</span>
+            </div>
+          </div>
+        </div>
+        <div class="result-group">
+          <label for="title" class="label">Category Result</label>
+          <div id="game-list" class="search-result">
+            <div class="game-tag">
+              <img
+                class="game-img"
+                src="SILICAT LOGO_square.png"
+                alt="Game picture"
+              />
+              <span class="game-name">Game name</span>
+              <span class="game-price">120000</span>
+            </div>
+            <div class="game-tag">
+              <img
+                class="game-img"
+                src="SILICAT LOGO_square.png"
+                alt="Game picture"
+              />
+              <span class="game-name">Game name</span>
+              <span class="game-price">120000</span>
+            </div>
+            <div class="game-tag">
+              <img
+                class="game-img"
+                src="SILICAT LOGO_square.png"
+                alt="Game picture"
+              />
+              <span class="game-name">Game name</span>
+              <span class="game-price">120000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
